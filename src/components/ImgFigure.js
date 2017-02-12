@@ -50,7 +50,7 @@ export default class ImgFigure extends Component{
 
 		return (
 			<figure className={figureClass} style={styleObj} onClick={this.handleClick}> 
-				<img src={data.imageUrl} alt={data.title} style={{'width':'240px','height':'240px'}}/>
+				<img src={data.imageUrl} alt={data.title} style={{'width':'300px','height':'200px'}}/>
 				<figcaption>
 					<h2 className="img-title">{data.title}</h2>
 					<div className="img-back" onClick={this.handleClick}>

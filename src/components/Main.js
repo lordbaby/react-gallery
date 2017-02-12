@@ -29,7 +29,6 @@ imageDatas=(function(imageDataArr){
 	return imageDataArr;
 })(imageDatas);
 
-console.log(imageDatas);
 
 class AppComponent extends React.Component {
 	constructor(props){

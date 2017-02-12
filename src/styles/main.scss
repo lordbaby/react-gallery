@@ -32,8 +32,8 @@ html,body{
 	@at-root{
 		.img-figure{
 			position:absolute;
-			width:320px;
-			height:360px;
+			width:380px;
+			height:320px;
 			margin:0;
 			padding:40px;
 			background:#fff;
@@ -45,7 +45,7 @@ html,body{
 			
 
 			&.is-inverse{
-				transform:translate(320px) rotateY(180deg);
+				transform:translate(380px) rotateY(180deg);
 			}
 		}
 		figcaption{
